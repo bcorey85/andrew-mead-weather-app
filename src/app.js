@@ -31,15 +31,15 @@ app.get('/', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
-        message: 'secret',
-        name: 'Brandon'
+        message: 'No help is coming.  Flee.',
+        name: 'Bob the Destroyer of All that is Holy'
     });
 });
 
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Me',
-        name: 'bobz'
+        name: 'Bob the Destroyer'
     });
 });
 
